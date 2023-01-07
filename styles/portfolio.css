@@ -185,3 +185,36 @@
     border:2px solid white;
     font-size: 20px;
 }
+
+/* comparing 2022 vs 2023 section */
+
+.compare{
+    background-color: gray;
+}
+.compare .section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+
+}
+
+.compare-content{
+    display: flex;
+    gap: 30px;
+    padding:0 500px;
+    margin-bottom: 30px;
+}
+
+.compare-content .description{
+    color:black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.compare-content-header{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 25px;
+}
