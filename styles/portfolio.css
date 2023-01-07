@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+}
+
+.top-banner {
+    background-image: url(../images/banner/banner2.png);
+    height: 800px;
+    width: 100%;
+}
+
+.header-banner {
+    text-align: right;
+    margin-right: 230px;
+    padding-top: 216px;
+}
+
+.btn-primary {
+    background: #F15B22;
+    border-radius: 5px;
+    padding: 15px 26px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: 0;
+    margin-top: 30px;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    margin-left: 840px;
+    text-align: right;
+}
+
+.header-description {
+    color: #444343;
+    text-align: right;
+    margin-left: 870px;
+}
+
+.body-design-container {
+    display: flex;
+    margin-top: 130px;
+    margin-left: 200px;
+    gap: 90px;
+    margin-bottom: 130px;
+}
+
+.half-width-left {
+    width: 569px;
+    height: 723.3px;
+}
+
+.half-width-right {
+    width: 416px;
+    height: 400px;
+    margin-top: 250px;
+    margin-right: 300px;
+}
+
+.right-header {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.right-description {
+    color: #444343;
+}
+
+.right-list {
+    margin-left: 20px;
+    margin-top: 16px;
+}
+
+.plan-header {
+    text-align: center;
+}
+
+.plan-container {
+    display: flex;
+    gap: 30px;
+    margin-left: 332px;
+    margin-bottom: 124px;
+}
+
+.plan {
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Bottom banner styles */
+.bottom-banner {
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),
+        url(../images/watch.png);
+    height: 300px;
+    width: 1100px;
+    margin-left: 230px;
+    margin-bottom: 130px;
+    border-radius: 8px;
+    text-align: left, center;
+}
+
+.bottom-banner-div {
+    margin-left: 64px;
+    text-align: left;
+    margin-right: 550px;
+    padding: 2px;
+}
+
+.bottom-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-top: 60px;
+}
+
+.btn-secondary {
+    border-radius: 5px;
+    padding: 15px 26px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    border: 0;
+    margin-top: 24px;
+}
+
+/* Last part styles */
+
+.future-section {
+    display: flex;
+    gap: 330px;
+    background: #151414;
+    padding: 130px 230px;
+}
+
+.future-section .section-title1 {
+    text-align: left;
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+
+.future-section .section-title2 {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.future-section .section-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.future-section a{
+    text-decoration: none;
+}
+
+.future-section input[type="email"]{
+    margin-top: 30px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #151414;
+    color: #F8F8F8;
+    border:2px solid white;
+}
